@@ -5,3 +5,4 @@ import "./controllers";
 // to disable turbo drive
 // import { Turbo } from "@hotwired/turbo-rails";
 // Turbo.session.drive = false;
+import "@hotwired/turbo-rails"
