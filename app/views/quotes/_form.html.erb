@@ -3,7 +3,7 @@
                               # data: { turbo: false }
 
                               } do |f| %>
-  form_error_notification(quote)
+  <%= form_error_notification(quote) %>
 
   <%= f.input :name, input_html: { autofocus: true } %>
   <%= link_to "Cancel", quotes_path, class: "btn btn--light" %>
